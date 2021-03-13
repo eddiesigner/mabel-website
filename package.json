@@ -2,7 +2,6 @@
   "name": "mabel-website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel serve src/index.html --no-cache",
     "build": "parcel build src/index.html"
