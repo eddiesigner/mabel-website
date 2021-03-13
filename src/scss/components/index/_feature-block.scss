@@ -1,0 +1,28 @@
+.feature-block {
+  max-width: 75%;
+  margin-bottom: 1.875rem;
+
+  @include respond-to('medium') {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+  &.last {
+    margin-bottom: 0;
+  }
+}
+
+.feature-block-title {
+  color: var(--text-color);
+  line-height: 1.3;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.625rem;
+}
+
+.feature-block-description {
+  color: var(--text-color);
+  line-height: 1.4;
+  font-size: 0.875rem;
+  font-weight: 500;
+}

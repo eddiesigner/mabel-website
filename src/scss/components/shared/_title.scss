@@ -1,0 +1,32 @@
+.title {
+  color: var(--text-color);
+  line-height: 1.3;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 0 0 1.25rem;
+
+  @include respond-to('medium') {
+    font-size: 1.5rem;
+  }
+
+  &.big {
+    font-size: 1.625rem;
+    margin-bottom: 1.875rem;
+
+    @include respond-to('medium') {
+      font-size: 1.875rem;
+    }
+  }
+
+  &.in-featuring-block {
+    max-width: 12.5rem;
+  }
+
+  &.in-features-section {
+    margin-bottom: 1.875rem;
+
+    @include respond-to('medium') {
+      margin-bottom: 2.5rem;
+    }
+  }
+}

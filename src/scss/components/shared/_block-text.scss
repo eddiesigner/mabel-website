@@ -1,0 +1,21 @@
+.block-text {
+  color: var(--text-color);
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 1.875rem;
+
+  &.medium {
+    @include respond-to('medium') {
+      font-size: 1.125rem;
+    }
+  }
+
+  &.in-featuring-section {
+    max-width: 85%;
+    margin-bottom: 0;
+
+    @include respond-to('medium') {
+      max-width: 25rem;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.features-section {
+   padding: 2.5rem 0;
+   background-color: var(--features-background-color);
+
+   @include respond-to('medium') {
+     padding: 3.75rem 0;
+   }
+}
+
+.features-section-grid {
+  @include respond-to('medium') {
+    display: grid;
+    grid-template-columns: repeat(2, 20rem);
+    row-gap: 2.5rem;
+    justify-content: space-between;
+  }
+
+  @include respond-to('large') {
+    grid-template-columns: repeat(3, 15rem);
+  }
+}

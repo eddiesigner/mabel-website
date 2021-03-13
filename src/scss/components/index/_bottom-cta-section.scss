@@ -1,0 +1,21 @@
+.bottom-cta-section {
+  padding: 2.5rem 0 4.375rem;
+  border-bottom: 0.0625rem solid var(--bottom-cta-border-color);
+  background-color: var(--text-color);
+
+  @include respond-to('medium') {
+    padding: 3.75rem 0 6.25rem;
+  }
+}
+
+.bottom-cta-section-avatar {
+  display: block;
+  width: 4.6875rem;
+  height: auto;
+  margin: 0 auto 1.875rem;
+
+  @include respond-to('medium') {
+    width: 6.25rem;
+    margin-bottom: 2.5rem;
+  }
+}

@@ -1,0 +1,47 @@
+.stores-block {
+  &.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+.stores-block-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.stores-block-link {
+  display: block;
+  height: 2.5rem;
+
+  &.apple {
+    margin-right: 1.25rem;
+  }
+
+  &.android {
+    opacity: 0.5;
+  }
+}
+
+.stores-block-image {
+  width: auto;
+  height: 100%;
+}
+
+.stores-block-label {
+  display: block;
+  color: var(--light-color);
+  font-size: 0.75rem;
+
+  @include respond-to('medium') {
+    font-size: 0.875rem;
+  }
+
+  em {
+    font-style: normal;
+    font-weight: 500;
+  }
+}

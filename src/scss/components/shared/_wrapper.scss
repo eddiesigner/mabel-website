@@ -1,0 +1,14 @@
+.wrapper {
+  position: relative;
+  padding: 0 var(--mobile-space);
+  margin: 0 auto;
+  max-width: var(--max-wrapper-width);
+
+  @include respond-to('medium') {
+    padding: 0 2.5rem;
+  }
+
+  @include respond-to('large') {
+    padding: 0;
+  }
+}
