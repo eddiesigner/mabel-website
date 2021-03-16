@@ -1,0 +1,13 @@
+@import "base/reset";
+@import "base/fonts";
+@import "base/mixins";
+@import "base/variables";
+@import "base/global";
+
+@import "components/shared/header";
+@import "components/shared/wrapper";
+@import "components/shared/logo-link";
+@import "components/shared/footer";
+
+@import "components/privacy/heading";
+@import "components/privacy/content";

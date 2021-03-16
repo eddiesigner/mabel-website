@@ -1,0 +1,31 @@
+.heading {
+  text-align: center;
+  margin: 0 auto 2.5rem;
+
+  @include respond-to('medium') {
+    margin-bottom: 3.75rem;
+  }
+}
+
+.heading-title {
+  color: var(--text-color);
+  line-height: 1.3;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0 0 0.9375rem;
+
+  @include respond-to('medium') {
+    font-size: 1.875rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+.heading-description {
+  color: var(--text-color);
+  line-height: 1.4;
+  font-size: 0.75rem;
+
+  @include respond-to('medium') {
+    font-size: 0.875rem;
+  }
+}

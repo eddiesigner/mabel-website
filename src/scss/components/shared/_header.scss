@@ -1,0 +1,7 @@
+.header {
+  padding: 1.875rem 0 2.5rem;
+
+  @include respond-to('medium') {
+    padding: 3.75rem 0;
+  }
+}

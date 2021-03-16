@@ -4,13 +4,14 @@
 @import "base/variables";
 @import "base/global";
 
+@import "components/shared/header";
 @import "components/shared/wrapper";
+@import "components/shared/logo-link";
 @import "components/shared/title";
 @import "components/shared/block-text";
 @import "components/shared/footer";
 
 @import "components/index/start-section";
-@import "components/index/logo-link";
 @import "components/index/stores-block";
 @import "components/index/featuring-block";
 @import "components/index/features-section";

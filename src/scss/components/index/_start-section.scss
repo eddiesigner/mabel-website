@@ -1,8 +1,8 @@
 .start-section {
-  padding: 1.875rem 0 0;
+  padding-bottom: 1.875rem;
 
   @include respond-to('medium') {
-    padding: 3.75rem 0;
+    padding-bottom: 3.75rem;
     border-bottom: 0.0625rem solid var(--border-color);
   }
 }
@@ -15,10 +15,10 @@
 }
 
 .start-section-main-wrapper {
-  padding: 2.5rem 0;
+  padding-bottom: 2.5rem;
 
   @include respond-to('medium') {
-    padding: 3.75rem 0 0;
+    padding: 6.875rem 0 0;
     max-width: 30.625rem;
   }
 }
