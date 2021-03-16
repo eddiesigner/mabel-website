@@ -13,6 +13,8 @@
 }
 
 .feature-block-title {
+  display: flex;
+  align-items: center;
   color: var(--text-color);
   line-height: 1.3;
   font-size: 1rem;
@@ -25,4 +27,17 @@
   line-height: 1.4;
   font-size: 0.875rem;
   font-weight: 500;
+}
+
+.feature-block-badge {
+  display: inline-block;
+  color: var(--background-color);
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-size: 0.5rem;
+  font-weight: 800;
+  padding: 0.125rem 0.25rem;
+  margin-left: 0.625rem;
+  border-radius: 0.25rem;
+  background-color: var(--text-color);
 }

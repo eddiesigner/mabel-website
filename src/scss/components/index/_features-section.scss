@@ -8,14 +8,50 @@
 }
 
 .features-section-grid {
+  margin-bottom: 2.5rem;
+
   @include respond-to('medium') {
     display: grid;
     grid-template-columns: repeat(2, 20rem);
     row-gap: 2.5rem;
     justify-content: space-between;
+    margin-bottom: 3.75rem;
   }
 
   @include respond-to('large') {
     grid-template-columns: repeat(3, 15rem);
+  }
+}
+
+.features-section-paragraph {
+  color: var(--text-color);
+  line-height: 1.4;
+  font-size: 0.875rem;
+  max-width: 85%;
+  margin-bottom: 1.25rem;
+
+  @include respond-to('medium') {
+    font-size: 1rem;
+  }
+
+  &.small {
+    font-size: 0.75rem;
+  }
+
+  &.less-space {
+    margin-bottom: 0.9375rem;
+
+    @include respond-to('medium') {
+      margin-bottom: 0.625rem;
+    }
+  }
+
+  &.last {
+    margin-bottom: 0;
+  }
+
+  em {
+    font-style: normal;
+    font-weight: 500;
   }
 }
