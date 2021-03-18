@@ -36,6 +36,16 @@
     }
   }
 
+  h4 {
+    font-weight: 600;
+    margin-bottom: 0.8125rem;
+
+    @include respond-to('medium') {
+      font-size: 0.9375rem;
+      margin-bottom: 1.25rem;
+    }
+  }
+
   p {
     line-height: 1.7;
     font-size: 0.75rem;
