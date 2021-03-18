@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://partner.newsadoo.com/sitemap.xml
+Sitemap: https://getmabel.app/sitemap.xml
