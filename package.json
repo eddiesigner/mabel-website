@@ -7,7 +7,7 @@
     "build": "npx mix --production"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eduardo Gómez",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.14",
