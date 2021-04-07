@@ -23,6 +23,11 @@
         grid-column: 1;
         grid-row: 1;
         justify-content: flex-start;
+        padding-left: 2.5rem;
+
+        @include respond-to('extra-large') {
+          padding-left: 3.75rem;
+        }
         
         img {
           @include transform(translateX(-2.5rem));
@@ -43,6 +48,16 @@
 
       @include respond-to('large') {
         padding-left: 5.3125rem;
+      }
+    }
+
+    .featuring-block-image {
+      @include respond-to('medium') {
+        padding-right: 2.5rem;
+      }
+
+      @include respond-to('extra-large') {
+        padding-right: 3.75rem;
       }
     }
   }
@@ -82,13 +97,13 @@
     justify-content: flex-end;
     height: auto;
     margin: 0;
-    overflow: auto;
+    overflow: visible;
     border-bottom: 0;
   }
 
   img {
     display: block;
-    width: 100%;
+    width: 78%;
     object-fit: contain;
     margin: 0 auto;
 

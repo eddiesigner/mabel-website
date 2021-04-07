@@ -42,14 +42,19 @@
     display: flex;
     justify-content: flex-end;
     height: auto;
+    padding-right: 2.5rem;
     margin: 0;
-    overflow: auto;
+    overflow: visible;
     border-bottom: 0;
+  }
+
+  @include respond-to('extra-large') {
+    padding-right: 3.75rem;
   }
 
   img {
     display: block;
-    width: 100%;
+    width: 78%;
     object-fit: contain;
     margin: 0 auto;
 
